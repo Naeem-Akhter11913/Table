@@ -1,0 +1,41 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+table{
+    margin: 100px auto;
+    border: 1px solid orange;
+}
+
+thead{
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    background-color: #DEDEDE;
+}
+
+th,td{
+    padding: 20px 20px;
+}
+td{
+    border: 1px solid red;
+}
+
+/* input styling */
+
+#tt{
+    width: 20%;
+    height: 30px;
+}
+input{
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+}
+input:focus{
+    background-color: lightgoldenrodyellow;
+}
